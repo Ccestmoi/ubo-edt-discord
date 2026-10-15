@@ -1,0 +1,43 @@
+{
+  "timezone": "Europe/Paris",
+  "calendars": {
+    "TP1A": "https://m.univ-brest.fr/ical/02d604e8-668e-4097-88c5-0bdc2b576edf.ics",
+    "TP1B": "https://m.univ-brest.fr/ical/e0d9a763-bec6-49e7-a56c-059d85806cd7.ics",
+    "TP2A": "https://m.univ-brest.fr/ical/6e834b72-7f23-4049-b686-b6f4b15aacd5.ics",
+    "TP2B": "https://m.univ-brest.fr/ical/c51cdb78-ebab-4c36-83fe-b77059b37b08.ics",
+    "PVP1": "https://m.univ-brest.fr/ical/c0a40dea-6efb-4040-9287-e45c7ec22931.ics",
+    "PVP2": "https://m.univ-brest.fr/ical/1f849ec9-f52b-4472-bc79-05d1a6752fd1.ics",
+    "PVP3": "https://m.univ-brest.fr/ical/8bd99266-ee20-41a8-8b56-74fb40c55ee0.ics",
+    "TIILA": "https://m.univ-brest.fr/ical/d0ea2c63-2c2f-4697-93c9-538928c6cfe3.ics"
+  },
+  "channels": [
+    {
+      "name": "edt1A",
+      "color": "5865F2",
+      "webhook_env": "WEBHOOK_EDT1A",
+      "main": ["TP1A"],
+      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+    },
+    {
+      "name": "edt1B",
+      "color": "57F287",
+      "webhook_env": "WEBHOOK_EDT1B",
+      "main": ["TP1B"],
+      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+    },
+    {
+      "name": "edt2A",
+      "color": "FEE75C",
+      "webhook_env": "WEBHOOK_EDT2A",
+      "main": ["TP2A"],
+      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+    },
+    {
+      "name": "edt2B",
+      "color": "EB459E",
+      "webhook_env": "WEBHOOK_EDT2B",
+      "main": ["TP2B"],
+      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+    }
+  ]
+}
