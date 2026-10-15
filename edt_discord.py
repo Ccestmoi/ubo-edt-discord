@@ -338,7 +338,7 @@ def build_payload(channel: dict, target: date, events: list,
         description = description[:EMBED_MAX_DESC - 1] + "…"
     group_label = " + ".join(channel["main"])
     return {
-        "username": "EDT M1 Info",
+        "username": "Chronos",
         "allowed_mentions": {"parse": []},
         "embeds": [{
             "title": "📅 %s — %s" % (group_label, human_date),
