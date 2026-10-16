@@ -3,7 +3,7 @@ name: EDT Discord quotidien
 on:
   schedule:
     # 06:00 UTC = 07:00 (hiver) / 08:00 (été) à Paris — du lundi au samedi
-    - cron: "0 5 * * MON-FRI"
+    - cron: "7 5 * * MON-SAT"
   workflow_dispatch:
     inputs:
       date:
