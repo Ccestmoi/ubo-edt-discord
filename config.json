@@ -16,14 +16,14 @@
       "color": "5865F2",
       "webhook_env": "WEBHOOK_EDT1A",
       "main": ["TP1A"],
-      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+      "combined": ["PVP1", "PVP2", "PVP3"]
     },
     {
       "name": "edt1B",
       "color": "57F287",
       "webhook_env": "WEBHOOK_EDT1B",
       "main": ["TP1B"],
-      "combined": ["PVP1", "PVP2", "PVP3", "TIILA"]
+      "combined": ["PVP1", "PVP2", "PVP3"]
     },
     {
       "name": "edt2A",
